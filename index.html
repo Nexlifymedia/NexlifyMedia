@@ -33,6 +33,15 @@
         background-size: cover;
         background-position: center;
       }
+      @media (orientation: portrait) {
+        .color-layer {
+          width: 100%;
+          height: 100%;
+        }
+        .globe-image {
+          width: 10%; /* 20% smaller than the original 50% */
+        }
+      }
     </style>
 
   </head>
@@ -188,7 +197,7 @@
 
             <!-- Aside Content Start -->
             <div class="aside__content">
-              <img src="img/globe.png" style="width: 50%;"> <br>
+              <img src="img/globe.png" class="globe-image" style="width: 50%;"> <br>
               <p> </p>  <p class="aside__title">Bridging Brands & Creators</p>
               <p class="aside__text">an agency dedicated to connecting brands with the right creators. We transform ideas into impactful campaigns by managing every step of the process. From matchmaking to execution, we ensure seamless collaboration and deliver measurable results..</p>
               <a href="#0" id="stayintouch-trigger" class="button button-outline-light">
