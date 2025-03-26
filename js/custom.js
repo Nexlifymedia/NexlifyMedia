@@ -129,7 +129,7 @@ $(window).on("load", function() {
           "value": "#ffffff"
         },
         "shape": {
-          "type": "star",
+          "type": "user",
           "stroke": {
             "width": 0,
             "color": "#000000"
